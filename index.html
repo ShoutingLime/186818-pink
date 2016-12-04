@@ -1,12 +1,151 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Academy: Пинк</title>
+</head>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+<body class="page">
+<header class="page-header">
+  <div class="logo">
+    <img src="http://placehold.it/80x35" alt="Pink">
+  </div>
+  <nav class="main-nav main-nav--closed main-nav--nojs">
+    <button class="main-nav__toggle" id="toggle" type="button"></button>
+    <ul class="main-nav__list">
+      <li
+        class="main-nav__item main-nav__item--active"><a
+        class="main-nav__link main-nav__link--main">Главная
+      </a></li>
+      <li class="main-nav__item"><a
+        class="main-nav__link  main-nav__link--photo" href="photo.html">
+        Фотографии</a></li>
+      <li class="main-nav__item"><a
+        class="main-nav__link  main-nav__link--competition" href="form.html">
+        Конкурс</a></li>
+      <li class="main-nav__item"><a
+        class="main-nav__link  main-nav__link--academy"
+        href="https://htmlacademy.ru">HTML
+        Academy</a></li>
+    </ul>
+  </nav>
+  <div class="intro-image"></div>
+</header>
+<main class="page-content">
+<section class="download">
+  <h2 class="visually-hidden">Загрузки</h2>
+  <a class="download__link download__link--app" href="http://www.apple.com/ru/itunes/">Скачать приложение</a>
+  <a class="download__link download__link--apple" href="http://www.apple.com/ru/itunes/">
+    <img src="img/apple-logo.svg" width="47" height="56" alt="Apple">
+  </a>
+  <a class="download__link download__link--android" href="https://play.google.com/store/">
+    <img src="img/android-logo.svg" width="43" height="47" alt="Android">
+  </a>
+  <a class="download__link download__link--microsoft" href="https://www.microsoft.com/ru-ru/store/apps/windows-phone/">
+    <img src="img/microsoft-logo.svg" width="44" height="41" alt="Microsoft">
+  </a>
+  <p class="download__platforms">Доступно для iPhone, iPad, Android,
+    Windows Phone, OS X, Windows 8</p>
+</section>
+<section class="promo">
+  <h2 class="visually-hidden">Преимущества приложения</h2>
+  <p class="promo__header">Устали от серости мегаполиса?</p>
+  <p class="promo__header">Нам есть, что вам предложить!</p>
+  <h3 class="promo__feature-slogan">Поднимает настроение</h3>
+  <p class="promo__feature-text">Приложение позволит вам победить осеннюю хандру
+    и депрессию буквально в несколько кликов!</p>
+  <h3 class="promo__feature-slogan">Меняет мир вокруг</h3>
+  <p class="promo__feature-text">Сделайте снимок и украсьте его смайликом или
+    текстовой подписью, чтобы усилить эффект</p>
+  <h3 class="promo__feature-slogan">Заводит новых друзей</h3>
+  <p class="promo__feature-text">Ставьте лайки, комментируте, делитесь
+    фотографиями с друзьями и заводите новых</p>
+  <div class="promo-image"></div>
+</section>
+<section class="reviews">
+  <h2 class="visually-hidden">Отзывы о приложении</h2>
+  <div class="reviews__item">
+    <p class="reviews__review-author">Николай Петров</p>
+    <p class="reviews__review-text">«Это приложение перевернуло мой мир и
+      позволило по-новому взглянуть на привычные серые вещи! А еще я
+      познакомился
+      со своей будущей женой в комментариях к выложенной фотографии!»</p>
+  </div>
+  <div class="reviews__item">
+    <p class="reviews__review-author">...</p>
+    <p class="reviews__review-text">«...»</p>
+  </div>
+  <div class="reviews__item">
+    <p class="reviews__review-author">...</p>
+    <p class="reviews__review-text">«...»</p>
+  </div>
+  <input type="radio" id="btn-1" name="toggle" checked>
+  <input type="radio" id="btn-2" name="toggle">
+  <input type="radio" id="btn-3" name="toggle">
+  <div class="reviews__slider-controls">
+    <label for="btn-1"></label>
+    <label for="btn-2"></label>
+    <label for="btn-3"></label>
+  </div>
+</section>
+<section class="price">
+  <h2 class="visually-hidden">Прайс-лист</h2>
+  <table class="versions">
+    <tbody>
+    <tr>
+      <td>База 1,99 usd</td>
+      <td class="hit">Стандарт 3,99 usd</td>
+      <td>Анлим 9,99 usd</td>
+    </tr>
+    <tr>
+      <td>Розовый фильтр</td>
+      <td>Розовый фильтр</td>
+      <td>Розовый фильтр</td>
+    </tr>
+    <tr>
+      <td>Смайлики</td>
+      <td>Смайлики</td>
+      <td>Смайлики</td>
+    </tr>
+    <tr>
+      <td>Комментарии</td>
+      <td>Комментарии</td>
+      <td>Комментарии</td>
+    </tr>
+    </tbody>
+  </table>
+  <input type="radio" id="btn-4" name="price-table">
+  <input type="radio" id="btn-5" name="price-table" checked>
+  <input type="radio" id="btn-6" name="price-table">
+  <div class="reviews__slider-controls">
+    <label for="btn-4"></label>
+    <label for="btn-5"></label>
+    <label for="btn-6"></label>
+  </div>
+</section>
+<section class="contacts">
+  <h2 class="visually-hidden">Контакты</h2>
+  <p class="contacts__header">Остались вопросы? Свяжитесь с нами!</p>
+  <ul class="contacts__list">
+    <li class="contacts__item">
+      <b class="contacts__text">Звоните:</b>
+      <a class="contacts__link contacts__link--phone" href="tel:+78125556666">+7
+        (812) 555-66-66</a>
+    </li>
+    <li class="contacts__item">
+      <b class="contacts__text">Пишите:</b>
+      <a class="contacts__link contacts__link--mail"
+         href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+    </li>
+    <li class="contacts__item">
+      <b class="contacts__text">Приезжайте в гости:</b>
+      <p class="contacts__address">ул. Большая Конюшенная, 19/8</p>
+    </li>
+  </ul>
 
-  </body>
+  <div class="contacts__map"></div>
+</section>
+</main>
+</body>
 </html>
