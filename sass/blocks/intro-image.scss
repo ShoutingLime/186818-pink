@@ -1,15 +1,15 @@
 .intro-image {
   min-height: 396px;
-  background-image: url(/img/iphone-hand-mobile@1x.png), url(/img/bg-back-mobile@1x.jpg);
+  background-image: url('../img/iphone-hand-mobile@1x.png'), url('../img/bg-back-mobile@1x.jpg');
   background-position: 0 110px, -190px -70px;
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
   background-color: #283645;
 }
 
 .intro-image--photo {
   height: 170px;
   background-color: #283645;
-  background-image: url(/img/bg-back-mobile@1x.jpg);
+  background-image: url('../img/bg-back-mobile@1x.jpg');
   background-position: -190px -70px;
   background-repeat: no-repeat;
 }

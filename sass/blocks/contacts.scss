@@ -71,7 +71,7 @@ li.contacts__item:nth-child(3) b {
 .contacts__map::after {
   content: "";
   display: block;
-  background-image: url(/img/icon-map-marker.svg);
+  background-image: url('../img/icon-map-marker.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 38px 38px;
